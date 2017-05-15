@@ -1,0 +1,25 @@
+{
+  "name": "fslogger",
+  "version": "1.0.0",
+  "description": "Write data to log files",
+  "main": "index.js",
+  "bin": {
+    "example": "bin/example.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleitner/fslogger.git"
+  },
+  "author": "Alexander Leitner <alex@storj.io>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/aleitner/fslogger/issues"
+  },
+  "dependencies": {
+
+  }
+}

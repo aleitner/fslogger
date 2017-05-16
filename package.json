@@ -7,7 +7,12 @@
     "example": "bin/example.js"
   },
   "directories": {
+    "test": "test",
     "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm run testsuite",
+    "testsuite": "STORJ_ALLOW_LOOPBACK=1 ./node_modules/.bin/mocha test/** --recursive"
   },
   "preferGlobal": true,
   "repository": {
@@ -19,7 +24,12 @@
   "bugs": {
     "url": "https://github.com/aleitner/fslogger/issues"
   },
-  "dependencies": {
-
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "coveralls": "^2.11.2",
+    "eslint": "^3.14.0",
+    "mocha": "^2.2.4",
+    "proxyquire": "^1.7.3",
+    "sinon": "^1.14.1"
   }
 }

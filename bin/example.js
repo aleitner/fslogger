@@ -18,8 +18,9 @@ fslogger.on('error', function(err) {
 
 // Log data
 setInterval(function() {
+  console.log('writing to logile.')
   fslogger.log(3, Date.now(), "I'm a message!!");
-}, 7200000);
+}, 500);
 
 
 // Check to delete old files every 2 hours

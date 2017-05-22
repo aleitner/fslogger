@@ -7,4 +7,4 @@
 'use strict';
 
 /** {@link module:fslogger} */
-exports.FsLogger = require('./lib/fslogger');
+module.exports = require('./lib/fslogger');

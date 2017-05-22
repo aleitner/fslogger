@@ -42,6 +42,11 @@ Write to the log file with the following method
 fslogger.log(loglevel, timestamp, message);
 ```
 
+Use `fslogger.write()` in order to write a preformatted message to the log file
+```
+fslogger.write(message);
+```
+
 ---
 Delete old log files
 ```

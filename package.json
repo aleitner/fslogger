@@ -1,6 +1,6 @@
 {
   "name": "fslogger",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Write data to log files",
   "main": "index.js",
   "bin": {
